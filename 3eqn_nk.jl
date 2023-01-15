@@ -184,7 +184,7 @@ end
 x_irf = plot_irf(x, "Output Gap", :bottomright)
 π_irf = plot_irf(π, "Inflation", :topright)
 i_irf = plot_irf(i, "Nominal Rate", :topright)
-v_irf = plot_irf(v, "Monetary policy Shock", :topright)
+v_irf = plot_irf(v, "Monetary Policy Shock", :topright)
 
 irfs = plot(x_irf, π_irf, i_irf, v_irf, layout = @layout([a b; c d]))
 display(irfs)
